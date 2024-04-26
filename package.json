@@ -1,0 +1,24 @@
+{
+  "name": "swc-styled-plugin-bug-repro",
+  "private": true,
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "build": "swc src -d dist",
+    "run": "node dist/src/index.js"
+  },
+  "keywords": [],
+  "author": "uhyo <uhyo@uhy.ooo>",
+  "license": "MIT",
+  "devDependencies": {
+    "@swc/cli": "^0.3.12",
+    "@swc/core": "^1.5.0",
+    "@swc/plugin-styled-components": "^2.0.0"
+  },
+  "dependencies": {
+    "react-dom": "^18.3.0",
+    "styled-components": "^6.1.8"
+  }
+}

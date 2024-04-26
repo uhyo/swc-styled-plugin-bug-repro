@@ -1,0 +1,24 @@
+{
+  "jsc": {
+    "parser": {
+      "syntax": "ecmascript",
+      "jsx": true
+    },
+    "target": "esnext",
+    "transform": {
+      "react": {
+        "runtime": "automatic"
+      }
+    },
+    "experimental": {
+      "plugins": [
+        [
+          "@swc/plugin-styled-components",
+          {
+            "transpileTemplateLiterals": true
+          }
+        ]
+      ]
+    }
+  }
+}
